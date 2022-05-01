@@ -30,8 +30,8 @@ ERROR="[${Red_font_prefix}ERROR${Font_color_suffix}]"
 echo -e "${INFO} Installation Antigen ..."
 rm -rf $HOME/.antigen
 mkdir -p $HOME/.antigen
-curl -L git.io/antigen >$HOME/.antigen/antigen.zsh
-curl -fsSL https://raw.githubusercontent.com/P3TERX/dotfiles/master/.zshrc >$HOME/.zshrc
+curl -L https://raw.githubusercontent.com/BigMangos/script/master/zsh/antigen.zsh >$HOME/.antigen/antigen.zsh
+curl -fsSL https://raw.githubusercontent.com/BigMangos/script/master/zsh/zshrc.txt >$HOME/.zshrc
 
 echo -e "${INFO} Installation Oh My Zsh ..."
 zsh $HOME/.zshrc
